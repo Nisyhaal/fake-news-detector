@@ -1,0 +1,63 @@
+# Node.js
+node_modules/
+dist/
+
+# Java
+*.class
+*.jar
+
+# Python
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# JetBrains IDE
+.idea/
+
+# Virtual Environment
+.venv/
+
+# Unit Test Reports
+TEST*.xml
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Applications
+*.app
+*.exe
+*.war
+
+# Media Files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# Configuration Files
+*config.py
+*.conf
+
+# Dataset
+*.csv
+dataset
+
+# Custom
+models/
+evaluation/
+results/
+tmp_trainer/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+*.ipynb
+
+# Test Files
+test.*

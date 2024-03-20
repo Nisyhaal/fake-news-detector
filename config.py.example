@@ -1,0 +1,28 @@
+# General Configuration
+ROOT_PATH = "/path/to/project/directory"
+ENVIRONMENT = "development, staging, local or production"
+
+# App Configuration
+APP_HOST = "host"
+APP_PORT = port
+APP_AUTO_RELOAD = boolean
+BEARER_TOKEN = "alphanumeric token"
+MODEL_PATH = "/path/to/project/model_directory"
+
+# Dataset configuration
+CSV_FILEPATH = "dataset/dataset.csv"
+RESAMPLING_STRATEGY = "none"
+LABEL_MAP = {'b': 0, 'm': 1, 'g': 2}
+
+# Model Training & Evaluation Configuration
+SEED = 42
+NUM_CLASSES = 3
+MODEL_NAME = "bert-base-uncased"
+TOKENIZER_NAME = "bert-base-cased"
+TRAIN_BATCH_SIZE = 16
+VALIDATION_BATCH_SIZE = 16
+NUM_EPOCHS = 5
+LEARNING_RATE = 0.01
+MOMENTUM = 0.9
+L2_REGULARIZER_RATE = 0.02
+DROPOUT = 0.3
